@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -151,10 +150,10 @@
 
             .imgfren2 {
                 display: inherit !important;
-                
-    width: 72%;
-                position: relative;
-                left: -8%;
+    width: 60%;
+    position: absolute;
+    left: 0%;
+    bottom: -80px;
             }
 
             .txthy {
@@ -217,9 +216,10 @@ transform: none !important;
 
             .mobile_brake_container {
                 display: flex !important;
-                flex-direction: row;
-                justify-content: flex-start;
-                align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 75%;
             }
 
             .carimg {
@@ -231,8 +231,10 @@ transform: none !important;
                 width: 90% !important;
             }
             .img-cap2{
-                display:inherit !important;
-                width: 34%;
+                display: inherit !important;
+    width: 34%;
+    /* margin-top: 100px; */
+    transform: translate(0px, 60px);
             }
             .row-mb{
                 display:inherit !important;
@@ -409,12 +411,12 @@ transform: none !important;
     margin-top: 8px !important;
         }
         .txt-img{
-            width:100%;
             font-size: 0.75vh;
-                        font-weight: bold;     align-self: baseline;
+    font-weight: bold;
+    align-self: baseline;
     margin-left: 4%;
-    
     font-family: 'Poppins', sans-serif;
+    float: right;
         }
 
         .frenos2 {
@@ -487,23 +489,29 @@ transform: none !important;
 
         .frenos_container {
             align-self: flex-start;
-            margin-left: 60%;
+    /* margin-left: 60%; */
+    width: 78%;
+    justify-content: flex-end;
+    float: right;
+    display: flex;
         }
 
         .row-dos{
             display: flex;
             flex-direction: row;
             
-            position:relative;
+           /* position:relative;*/
+           width: 78%;
+           margin-right: 22%;
+           justify-content: flex-end;
         }
         .cnt-logo1{
-            padding-left: 6%;
-            width: 47%;
+            
+            width: 100%;
         }
         .cnt-logo2{
-            position: relative;
-            left: 0%;
-    top: -13px;
+            
+
         }
        
         .logo-txt1{
@@ -518,6 +526,7 @@ transform: none !important;
         }
         .logo2{
             width:69%;
+            float: right;
         }
         
     </style>
@@ -539,12 +548,10 @@ transform: none !important;
     <img src="https://primicias.s3.amazonaws.com/comercial/hyundai/Logo.png" class="img-cap2">
     </div>
 <div class="frenos_container ">
-    <h4 class="txt-img frenos">*Imagen referencial para uso publicitario</h4>
-
+<h4 class="txt-img frenos">*Imagen referencial para uso publicitario</h4>
 </div>
 <div class="row-dos">
 <div class="cnt-logo1">
-
 </div>
 <div class="cnt-logo2">
 <img class="logo2" src="https://primicias.s3.amazonaws.com/comercial/hyundai/Logo.png">
@@ -584,7 +591,6 @@ transform: none !important;
 <option value="Ambato">Ambato</option>
 <option value="Azogues">Azogues</option>
 <option value="Cayambe">Cayambe</option>
-
 <option value="Ibarra">Ibarra</option>
 <option value="Latacunga"> Latacunga</option>
 <option value="Loja"> Loja</option>
@@ -619,7 +625,6 @@ transform: none !important;
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center boton">
 <a href="#" id="enviarformulario">Enviar</a>
 </div>
-
 <div class="row-mb">
 <div class="cnt-logo1">
 <h4 class="logo-txt1">6 airbags</h4>
